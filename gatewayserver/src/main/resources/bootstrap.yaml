@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: gateway-server    ⇽---  对网关服务进行命名以便让Spring Cloud Config客户端知道哪个服务正在被查找
+  cloud:
+    config:
+      uri: http://localhost:8071    ⇽---  指定Spring Cloud Config服务器端的位置
